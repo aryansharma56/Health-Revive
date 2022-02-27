@@ -12,14 +12,14 @@ $total=mysqli_num_rows($data);
 	<body> 
 	<table  style="width:600px; line-height:40px; text-align:center; border:1px;"> 
 	<tr> 
-		<th colspan="4"><h2>Student Record</h2></th> 
+		<th colspan="4"><h2>Donor Record</h2></th> 
 		</tr> 
-			  <th> id </th> 
-			  <th> first name </th> 
-			  <th> last name </th> 
-			  <th> email </th> 
-              <th> password </th>
-              <th> number </th>
+			  <th> Name </th> 
+			  <th> Email </th> 
+			  <th> Number </th> 
+			  <th> Blood Group</th> 
+              <th> City </th>
+              <th> Locality </th>
         
 			  
 		</tr> 
